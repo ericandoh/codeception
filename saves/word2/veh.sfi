@@ -1,0 +1,16 @@
+Vehicles 1.1.1
+$Player Vehicles
+$Vehic
+2
+Entity$PlayerUnit$true$-10$404.0$373.0$SKY$0.0$0.09817477042468103$true$1000$1000$false$false$0.5
+prevD$0.0
+prevX$403.5
+prevY$373.0
+syskey$['space','r','b']
+syslst$['log()','repair()','build('WoodBot')']
+destx$404.0
+desty$373.0
+$Progs
+$EndPr
+
+End

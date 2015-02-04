@@ -1,0 +1,25 @@
+Player Info 1.0
+$Playr
+20$19$0$10
+$Progs
+$UProg
+$Use
+clickmove
+clickmove
+$lines
+prevX=add(xpos,1)
+prevY=add(ypos,1)
+prevD=add(direction,0.1)
+while(and(not(close(sys1,sys2)),or(not(eq(prevX,xpos)),or(not(eq(prevY,ypos)),not(eq(prevD,direction))))))
+prevX=xpos
+prevY=ypos
+prevD=direction
+move(sys1,sys2)
+endwhile
+$params
+sys1$sys2$
+$PItem
+Log$8
+IronOre$19
+$PEnd
+End
